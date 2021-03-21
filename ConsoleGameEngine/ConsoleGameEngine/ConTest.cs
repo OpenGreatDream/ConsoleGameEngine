@@ -13,7 +13,7 @@ namespace ConsoleGameEngine
         {
             string str = string.Empty;
 #if DEBUG
-            testString += "DEBUG";
+            str += "DEBUG";
 #else
             str += "RELEASE";
 #endif
