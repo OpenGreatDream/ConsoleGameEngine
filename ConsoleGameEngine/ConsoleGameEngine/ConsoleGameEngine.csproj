@@ -3,6 +3,12 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>net5.0</TargetFramework>
+    <Version>0.0.0</Version>
+    <Authors>dec23</Authors>
+    <RepositoryUrl>https://github.com/OpenGreatDream/ConsoleGameEngine</RepositoryUrl>
+    <Copyright></Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>
