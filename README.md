@@ -12,3 +12,7 @@
 -->
 
 > This is my console game engine.
+
+### Third Party & Include
+
+[NativeMethods.cs](https://github.com/OpenGreatDream/ConsoleGameEngine/blob/main/ConsoleGameEngine/ConsoleGameEngine/Include/NativeMethods.cs) is modified from : [ConsoleInterop.cs](https://github.com/guylangston/ConsoleZ/blob/master/src/ConsoleZ/Win32/ConsoleInterop.cs)
