@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.InteropServices;
 
 namespace ConsoleGameEngine
 {
@@ -10,13 +11,19 @@ namespace ConsoleGameEngine
     {
         public static string BuildModeString()
         {
-            string testString = string.Empty;
+            string str = string.Empty;
 #if DEBUG
             testString += "DEBUG";
 #else
-            testString += "RELEASE";
+            str += "RELEASE";
 #endif
-            return testString;
+            return str;
+        }
+
+        public static bool IsWindows()
+        {
+            //return RuntimeInformation.IsOSPlatform(OSPlatform.Windows);
+            return OperatingSystem.IsWindows();
         }
     }
 }
