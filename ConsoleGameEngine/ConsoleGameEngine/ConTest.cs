@@ -25,5 +25,25 @@ namespace ConsoleGameEngine
             //return RuntimeInformation.IsOSPlatform(OSPlatform.Windows);
             return OperatingSystem.IsWindows();
         }
+
+        [DllImport("ConsoleGameEngineNative.dll",
+            CallingConvention = CallingConvention.StdCall,
+            SetLastError = true,
+            EntryPoint = "TryToLoadNativeDLL",
+            CharSet = CharSet.Unicode)]
+        public extern static bool TryToLoadNativeDLLMethod();
+
+        public static bool TryToLoadNativeDLL()
+        {
+            try
+            {
+                TryToLoadNativeDLLMethod();
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            return true;
+        }
     }
 }

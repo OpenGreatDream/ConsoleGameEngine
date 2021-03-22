@@ -1,6 +1,8 @@
 ﻿using System;
+
 using ConsoleGameEngine;
 using ConsoleGameEngine.Include;
+
 using static ConsoleGameEngine.Include.NativeMethods;
 
 namespace ConsoleGames
@@ -19,6 +21,9 @@ namespace ConsoleGames
             SMALL_RECT rect = new SMALL_RECT() { Left = 0, Top = 0, Bottom = 1, Right = 9 };
             bool s = WriteConsoleOutput(hOutput, charInfos,
                 new COORD() { X = 10, Y = 2 }, new COORD() { X = 0, Y = 0 }, ref rect);
+
+            bool suc = ConTest.TryToLoadNativeDLL();
+            Console.WriteLine("Load Native DLL:" + suc);
 
             string str = ConTest.BuildModeString();
             Console.WriteLine(str);
