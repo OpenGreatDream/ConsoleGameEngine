@@ -10,6 +10,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>This is my console game engine.</Description>
+    <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -22,6 +23,13 @@
 
   <ItemGroup>
     <PackageReference Include="Vanara.PInvoke.Kernel32" Version="3.3.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\doc\logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
