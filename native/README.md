@@ -1,1 +1,1 @@
-> TIP : C++ assembly must be compiled in x64 mode, otherwise C# cannot load the DLL normally.
+> TIP : C++ assembly must be compiled in x64 mode, otherwise C# program(.Net 5.0) cannot load the DLL successfully.

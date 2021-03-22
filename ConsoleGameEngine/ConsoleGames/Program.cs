@@ -27,7 +27,9 @@ namespace ConsoleGames
 
             string str = ConTest.BuildModeString();
             Console.WriteLine(str);
+
             Console.WriteLine("Hello World!");
+            
             Console.ReadLine();
         }
     }
