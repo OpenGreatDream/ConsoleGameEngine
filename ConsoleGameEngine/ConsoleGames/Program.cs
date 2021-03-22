@@ -29,7 +29,9 @@ namespace ConsoleGames
             Console.WriteLine(str);
 
             Console.WriteLine("Hello World!");
-            
+
+            Vanara.PInvoke.Kernel32.SetConsoleTitle("hello vanara!");
+
             Console.ReadLine();
         }
     }
