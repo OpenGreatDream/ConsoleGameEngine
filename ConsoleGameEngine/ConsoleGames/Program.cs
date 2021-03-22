@@ -22,7 +22,7 @@ namespace ConsoleGames
             bool s = WriteConsoleOutput(hOutput, charInfos,
                 new COORD() { X = 10, Y = 2 }, new COORD() { X = 0, Y = 0 }, ref rect);
 
-            bool suc = ConTest.TryToLoadNativeDLL();
+            bool suc = ConTest.LoadNativeDLL();
             Console.WriteLine("Load Native DLL:" + suc);
 
             string str = ConTest.BuildModeString();
@@ -31,6 +31,8 @@ namespace ConsoleGames
             Console.WriteLine("Hello World!");
 
             Vanara.PInvoke.Kernel32.SetConsoleTitle("hello vanara!");
+
+            Audio.AudioPlayOneShot("..\\..\\..\\..\\..\\resources\\BOBACRI - Sleep Away.mp3");
 
             Console.ReadLine();
         }

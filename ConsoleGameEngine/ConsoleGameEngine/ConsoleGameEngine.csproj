@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <Version>0.0.2</Version>
+    <Version>0.0.4</Version>
     <Authors>dec23</Authors>
     <RepositoryUrl>https://github.com/OpenGreatDream/ConsoleGameEngine</RepositoryUrl>
     <Copyright></Copyright>
@@ -11,6 +11,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>This is my console game engine.</Description>
     <PackageIcon>logo.png</PackageIcon>
+    <RepositoryType>Windows, Console, Terminal, GameEngine</RepositoryType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

@@ -31,13 +31,13 @@ namespace ConsoleGameEngine
             SetLastError = true,
             EntryPoint = "TryToLoadNativeDLL",
             CharSet = CharSet.Unicode)]
-        public extern static bool TryToLoadNativeDLLMethod();
+        public extern static bool TryToLoadNativeDLL();
 
-        public static bool TryToLoadNativeDLL()
+        public static bool LoadNativeDLL()
         {
             try
             {
-                TryToLoadNativeDLLMethod();
+                TryToLoadNativeDLL();
             }
             catch (Exception)
             {

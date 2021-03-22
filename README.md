@@ -22,6 +22,10 @@ CGE is written from scratch(still under development), Its goal is to provide ric
 
 > IMPORTANT : ConsoleGameEngine's not a C# wrapper of olcConsoleGameEngine(Not compatible with olcCGE)
 
+### How to use?
+
+todo
+
 ### Features
 
 todo
@@ -31,3 +35,5 @@ todo
 [NativeMethods.cs](https://github.com/OpenGreatDream/ConsoleGameEngine/blob/main/ConsoleGameEngine/ConsoleGameEngine/Include/NativeMethods.cs) is modified from : [ConsoleInterop.cs](https://github.com/guylangston/ConsoleZ/blob/master/src/ConsoleZ/Win32/ConsoleInterop.cs)
 
 [Vanara](https://github.com/dahall/Vanara)
+
+[BASS](http://www.un4seen.com/)
