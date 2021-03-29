@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Vanara.PInvoke.User32" Version="3.3.7" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ConsoleGameEngine\ConsoleGameEngine.csproj" />
   </ItemGroup>
 
