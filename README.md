@@ -1,5 +1,7 @@
 # <img src="doc/logo.png" height="36px" valign='bottom'/> ConsoleGameEngine
 
+# This project has been abandoned, please check:https://github.com/OpenGreatDream/MinConsole
+
 [![](https://img.shields.io/github/license/OpenGreatDream/ConsoleGameEngine)](https://github.com/OpenGreatDream/ConsoleGameEngine/blob/main/LICENSE)
 [![](https://img.shields.io/github/issues/OpenGreatDream/ConsoleGameEngine)](https://github.com/OpenGreatDream/ConsoleGameEngine/issues)
 [![](https://img.shields.io/github/last-commit/OpenGreatDream/ConsoleGameEngine)](https://github.com/OpenGreatDream/ConsoleGameEngine/commits/main)
